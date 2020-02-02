@@ -14,7 +14,6 @@ app = Flask(__name__)
 CORS(app)
 
 chromeURL = ''
-RESPONSE = ""
 all_recs = ''
 
 def load_model():
